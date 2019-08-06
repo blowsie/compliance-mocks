@@ -1,4 +1,5 @@
 import angular from 'angular';
+import 'jquery';
 import '@uirouter/angularjs';
 import '@progress/kendo-ui';
 
@@ -10,8 +11,9 @@ import './alert'
 
 // Create and bootstrap application
 const requires = [
+  'kendo.directives',
   'ui.router',
-  'alert'
+  'alert',
 ];
 
 window.app = angular.module('app', requires);

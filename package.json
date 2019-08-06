@@ -5,6 +5,7 @@
   "dependencies": {
     "@progress/kendo-ui": "^2019.2.801",
     "@uirouter/angularjs": "1.0.15",
-    "angular": "1.6.9"
+    "angular": "1.6.9",
+    "jquery": "^3.4.1"
   }
 }
