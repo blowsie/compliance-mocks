@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "angular": "1.6.9",
-    "@uirouter/angularjs": "1.0.15"
+    "@uirouter/angularjs": "1.0.15",
+    "@progress/kendo-ui": "2019.2.801"
   }
 }

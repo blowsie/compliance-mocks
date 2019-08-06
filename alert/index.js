@@ -5,10 +5,10 @@ let alertModule = angular.module('alert', []);
 
 // Include our UI-Router config settings
 import AlertConfig from './alert.config';
-alertModule.config(HomeConfig);
+alertModule.config(AlertConfig);
 
 // Controllers
-import HomeCtrl from './alert.controller';
-alertModule.controller('HomeCtrl', HomeCtrl);
+import AlertCtrl from './alert.controller';
+alertModule.controller('AlertCtrl', AlertCtrl);
 
 export default alertModule;
