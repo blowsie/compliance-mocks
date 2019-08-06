@@ -1,0 +1,59 @@
+{
+  "alerts": [
+    {
+      "id": 1,
+      "createdOn": "10/3/18",
+      "division": "South-West Compliance Department",
+      "scenarioId": 1,
+      "scenarioName": "Over $30k in 31 Days",
+      "assigneeId" 1,
+      "assigneeName": "John Smith",
+      "status": 1,
+      "closedOn": "11/3/18",
+      "priority": 1,
+      "relatedAlerts": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "consolidatedAlerts": [
+        6,
+        7
+      ],
+      "category": 1
+    }
+  ],
+  "alertCategories": [
+    {
+      "id": 1,
+      "name": "Master Alert"
+    },
+    {
+      "id": 2,
+      "name": "Consolidated Alert"
+    },
+    {
+      "id": 3,
+      "name": "Single Alert"
+    },
+  ],
+  "alertStatuses": [
+    {
+      "id": 1,
+      "name": "Pending Review"
+    },
+    {
+      "id": 2,
+      "name": "Under Review"
+    },
+    {
+      "id": 3,
+      "name": "Closed No Action"
+    },
+    {
+      "id": 4,
+      "name": "Closed Action"
+    },
+  ],
+}
