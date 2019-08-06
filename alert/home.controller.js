@@ -1,4 +1,4 @@
-class HomeCtrl {
+class AlertCtrl {
   constructor($scope) {
     'ngInject';
 
@@ -6,4 +6,4 @@ class HomeCtrl {
   }
 }
 
-export default HomeCtrl;
+export default AlertCtrl;
