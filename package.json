@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "angular": "1.6.9",
+    "@progress/kendo-ui": "^2019.2.801",
     "@uirouter/angularjs": "1.0.15",
-    "@progress/kendo-ui": "2019.2.801"
+    "angular": "1.6.9"
   }
 }
